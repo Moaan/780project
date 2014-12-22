@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green">
+    
+    <TextView android:layout_alignParentTop="true" android:layout_centerHorizontal="true" 
+        android:layout_marginTop="26dp" android:layout_width="wrap_content" 
+        android:textColor="@android:color/black" android:typeface="normal" android:textStyle="bold"
+        android:layout_height="wrap_content" android:text="@string/end_label" android:textSize="50sp" />
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp"
+        android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:text="@string/end_message"/>
+    
+    <Button android:id="@+id/menuButton" android:layout_width="100dp" android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="45dp"
+        android:typeface="monospace" android:background="@color/light_green" android:textStyle="bold" android:textSize="25sp"
+        android:text="@string/menu_label"  android:onClick="goToMenu"></Button>
+
+</RelativeLayout>

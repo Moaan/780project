@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green" >
+    
+   	<TextView android:id="@+id/ControlsTitle" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" 
+   	    android:layout_width="wrap_content" android:textColor="@android:color/black" android:typeface="normal"
+   	    android:layout_marginTop="26dp" android:textStyle="bold" android:layout_height="wrap_content" 
+   	    android:text="@string/controls_label" android:textSize="50sp" />
+   	
+   	<TextView android:id="@+id/controlsInfo" android:layout_centerInParent="true" android:layout_width="wrap_content" 
+        android:textColor="@android:color/black" android:typeface="normal" android:textStyle="normal"
+        android:layout_height="wrap_content" android:text="@string/controls" android:textSize="25sp"/>
+   	
+   	<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="45dp"
+        android:text="@string/ok_label" android:onClick="returnToMenu" android:typeface="monospace" 
+        android:background="@color/light_green" android:textStyle="bold" android:textSize="25sp" />
+    
+
+</RelativeLayout>

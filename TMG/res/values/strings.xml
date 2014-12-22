@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">TMG</string>
+    <string name="play_label">PLAY</string>
+    <string name="settings_label">Settings</string>
+    <string name="info_label">Information</string>
+    
+    <string name="credits_label">Credits</string>
+    <string name="credita">Project manager\t\tMoaan Ahmed\n\nLead Programmer\t\tMoaan Ahmed\n\nLead Game Designer\t\tMoaan Ahmed\n\n</string>
+    <string name="credit0">Main Character Sprites:\nFeralFantom\nhttp://opengameart.org/content/feralfantoms-entry\n\n</string>
+    <string name="credit1">Gray Gear Icon Image\nby Peleg Tabib under Creative Commons License 3.0\nhttps://www.iconfinder.com/icons/196912/fez_gear_preferences_settings_icon\n\n</string>
+    <string name="credit2">Black Gear Icon Image\nby Ionicons under MIT License\nhttps://www.iconfinder.com/icons/211751/gear_icon#size=64\n\n</string>
+    <string name="credit3">Information Icon Image\nby Ionicons under MIT License\nhttps://www.iconfinder.com/icons/211762/information_icon#size=64\n\n</string>
+    <string name="credit4">Pause Icon Image\nby Google [Free for commercial use]\nhttps://www.iconfinder.com/icons/326570/circle_outline_pause_icon#size=48\n\n</string>
+    <string name="credit5">Detective Hat Icon\n from http://www.giantbomb.com/detective-noir/3055-5121/\n</string>
+    <string name="back_label">Back</string>
+    
+    <string name="controls_label">Controls</string>
+    <string name="controls">Tilt device left or right to move player.\nTouch lower half of screen to jump\nAvoid holes and reach the end to win.</string>
+    <string name="ok_label">OK</string>
+    
+    <string name="fbi_label">Agent S</string>
+    <string name="prof_label">Walter W</string>
+    
+    <string name="end_label">Level Complete!</string>
+    <string name="end_message">Thank you for playing this game!\nFull version is coming soon.</string>
+    <string name="menu_label">Menu</string>
+
+</resources>
